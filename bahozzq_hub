@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bahozzq/Scripts/main/Gui"))()
-local Window = Library.CreateLib("bahozzq's Hub", "Sentinel")
+local Window = Library.CreateLib("bahozzq Hub", "Sentinel")
 local Tab = Window:NewTab("Blox Fruit")
 local Section = Tab:NewSection("Blox Fruit Gui (click to execute)")
 Section:NewButton("Rasputin Hub", "Click to execute", function()
