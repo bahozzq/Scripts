@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("EasyScript's Hub", "Sentinel")
+local Window = Library.CreateLib("Bahozzq's Hub", "Sentinel")
 local Tab = Window:NewTab("Blox Fruit")
 local Section = Tab:NewSection("Blox Fruit Gui (click to execute)")
 Section:NewButton("Rasputin Hub", "Click to execute", function()
