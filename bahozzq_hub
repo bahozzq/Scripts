@@ -34,6 +34,20 @@ end)
 Section:NewButton("4lve Hub", "Click to execute", function() 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/4lve/Roblox/main/PetSimX.lua"))()
 end)
+
+local Tab = Window:NewTab("Slashing Simulator")
+local Section = Tab:NewSection("Slashing Simulator Gui (click to execute)")
+Section:NewButton("Slashing Simulator script 1", "Click to execute", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/bahozzq/Scripts/main/Slashing%20simulator"))()
+end) 
+
+local Tab = Window:NewTab("Horrific Housing")
+local Section = Tab:NewSection("Horrific Housing (click to execute)")
+Section:NewButton("Horrofic Housing Script 1", "Click to execute", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/bahozzq/Scripts/main/Horrific_Housing"))()
+end) 
+
+
 local Tab = Window:NewTab("Phantom Forces")
 local Section = Tab:NewSection("Phantom Forces Gui (click to execute)")
 Section:NewButton("ProjectEvo Hub", "Click to execute", function() 
@@ -78,7 +92,7 @@ local Tab = Window:NewTab("Fishing Simulator")
 local Section = Tab:NewSection("Fishing Simulator Gui (click to execute)")
 Section:NewButton("Hub 1", "Click to execute", function()
     --[[
-					Obfuscated with open source ironbrew! Custom rebuild: c90a70a6850370182c13950944f3185f
+					Obfuscated with open source Bahoz! Custom rebuild: c90a70a6850370182c13950944f3185f
 					Script created by: Leave Me Bahoz#9341
 ]]
 
